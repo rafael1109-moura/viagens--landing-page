@@ -1,20 +1,21 @@
 body{
-    background: linear-gradient(to right, #5097e9, #378ee0);
+    background: linear-gradient(to right, #6eadf0, #2a75bb);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 .banner{
-    background-image: url("../imagens/banner.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagens/banner.webp");
     background-size: cover; /* cobre todo o espaço disponível */
     background-position: center; 
-    height: 1000px;
+    height: 600px;
+    border: none;
 }
 .banner h1{
     text-shadow: 1px 1px 1px #0277BD;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 200px;
     color: white;
 }
 .banner h2{
@@ -23,4 +24,23 @@ body{
     font-size: 20px;
     color: white;
     margin-top: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px; /*espaço entre os links*/
+    background-color: #666666;
+    padding: 15px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none; /*remove o sublinhado dos links*/
+    padding: 15px 20px;
+    display: block;
+    transition: 0.3s; /*transição suave para o efeito hover*/
+}
+.menu a:hover{
+    background-color: #043a5a;
+    color: white;
 }
