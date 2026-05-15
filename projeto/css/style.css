@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, #6eadf0, #2a75bb);
+    background: linear-gradient(to right, #bfd5ec, #6c98c0);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -43,4 +43,11 @@ body{
 .menu a:hover{
     background-color: #043a5a;
     color: white;
+}
+.minha-viagem{
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 23px;
 }
